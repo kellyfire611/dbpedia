@@ -10,6 +10,67 @@
     <!-- Vendor CSS -->
     <link rel="stylesheet" href="/static/vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/vendor/codemirror/lib/codemirror.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/3024-day.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/3024-night.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/abcdef.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/ambiance.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/ayu-dark.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/ayu-mirage.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/base16-dark.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/bespin.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/base16-light.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/blackboard.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/cobalt.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/colorforth.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/dracula.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/duotone-dark.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/duotone-light.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/eclipse.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/elegant.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/erlang-dark.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/gruvbox-dark.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/hopscotch.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/icecoder.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/isotope.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/lesser-dark.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/liquibyte.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/lucario.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/material.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/material-darker.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/material-palenight.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/material-ocean.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/mbo.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/mdn-like.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/midnight.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/monokai.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/moxer.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/neat.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/neo.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/night.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/nord.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/oceanic-next.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/panda-syntax.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/paraiso-dark.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/paraiso-light.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/pastel-on-dark.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/railscasts.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/rubyblue.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/seti.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/shadowfox.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/solarized.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/the-matrix.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/tomorrow-night-bright.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/tomorrow-night-eighties.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/ttcn.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/twilight.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/vibrant-ink.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/xq-dark.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/xq-light.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/yeti.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/idea.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/darcula.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/yonce.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/theme/zenburn.css">
 
     <link rel="stylesheet" href="/static/css/app.css">
 </head>
@@ -58,12 +119,79 @@
                         <h5 class="card-title">Kết quả trả về</h5>
                         <textarea class="form-control" name="resultQuery" id="resultQuery" rows="15"></textarea>
                     </div>
+                    <p>Chọn giao diện:
+                        <select onchange="selectTheme()" id="selectTheme">
+                            <option selected>Mặc định</option>
+                            <option>3024-day</option>
+                            <option>3024-night</option>
+                            <option>abcdef</option>
+                            <option>ambiance</option>
+                            <option>ayu-dark</option>
+                            <option>ayu-mirage</option>
+                            <option>base16-dark</option>
+                            <option>base16-light</option>
+                            <option>bespin</option>
+                            <option>blackboard</option>
+                            <option>cobalt</option>
+                            <option>colorforth</option>
+                            <option>darcula</option>
+                            <option>dracula</option>
+                            <option>duotone-dark</option>
+                            <option>duotone-light</option>
+                            <option>eclipse</option>
+                            <option>elegant</option>
+                            <option>erlang-dark</option>
+                            <option>gruvbox-dark</option>
+                            <option>hopscotch</option>
+                            <option>icecoder</option>
+                            <option>idea</option>
+                            <option>isotope</option>
+                            <option>lesser-dark</option>
+                            <option>liquibyte</option>
+                            <option>lucario</option>
+                            <option>material</option>
+                            <option>material-darker</option>
+                            <option>material-palenight</option>
+                            <option>material-ocean</option>
+                            <option>mbo</option>
+                            <option>mdn-like</option>
+                            <option>midnight</option>
+                            <option>monokai</option>
+                            <option>moxer</option>
+                            <option>neat</option>
+                            <option>neo</option>
+                            <option>night</option>
+                            <option>nord</option>
+                            <option>oceanic-next</option>
+                            <option>panda-syntax</option>
+                            <option>paraiso-dark</option>
+                            <option>paraiso-light</option>
+                            <option>pastel-on-dark</option>
+                            <option>railscasts</option>
+                            <option>rubyblue</option>
+                            <option>seti</option>
+                            <option>shadowfox</option>
+                            <option>solarized dark</option>
+                            <option>solarized light</option>
+                            <option>the-matrix</option>
+                            <option>tomorrow-night-bright</option>
+                            <option>tomorrow-night-eighties</option>
+                            <option>ttcn</option>
+                            <option>twilight</option>
+                            <option>vibrant-ink</option>
+                            <option>xq-dark</option>
+                            <option>xq-light</option>
+                            <option>yeti</option>
+                            <option>yonce</option>
+                            <option>zenburn</option>
+                        </select>
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="contain">
+    <div class="container">
         <div class="row">
             <div class="col">
                 <h2>Các câu ví dụ Truy vấn SPARQL DBPEDIA</h2>
@@ -71,9 +199,9 @@
                     <dt>Truy vấn thông tin SELECT EXAMPLE</dt>
                     <dd>
                         <pre><code>
-                            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-                            SELECT ?label
-                            WHERE { <http://dbpedia.org/resource/Asturias> rdfs:label ?label }
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    SELECT ?label
+    WHERE { <http://dbpedia.org/resource/Asturias> rdfs:label ?label }
                         </code></pre>
                     </dd>
                 </dl>
@@ -86,11 +214,41 @@
     <script src="/static/vendor/popperjs/popper.min.js"></script>
     <script src="/static/vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="/static/vendor/sweetalert2/sweetalert2.js"></script>
+
     <script src="/static/vendor/codemirror/lib/codemirror.js"></script>
     <script src="/static/vendor/codemirror/mode/javascript/javascript.js"></script>
+    <script src="/static/vendor/codemirror/addon/selection/active-line.js"></script>
+    <script src="/static/vendor/codemirror/addon/edit/matchbrackets.js"></script>
 
     <script src="/static/js/app.js"></script>
     <script>
+        var editor = CodeMirror.fromTextArea(document.getElementById("resultQuery"), {
+            lineNumbers: true,
+            styleActiveLine: true,
+            matchBrackets: true
+        });
+        var input = document.getElementById("selectTheme");
+
+        function selectTheme() {
+            var theme = input.options[input.selectedIndex].textContent;
+            editor.setOption("theme", theme);
+            location.hash = "#" + theme;
+        }
+        var choice = (location.hash && location.hash.slice(1)) ||
+            (document.location.search &&
+                decodeURIComponent(document.location.search.slice(1)));
+        if (choice) {
+            input.value = choice;
+            editor.setOption("theme", choice);
+        }
+        CodeMirror.on(window, "hashchange", function () {
+            var theme = location.hash.slice(1);
+            if (theme) {
+                input.value = theme;
+                selectTheme();
+            }
+        });
+
         $(document).ready(function () {
             $('#btnExecuteQuery').click(function () {
                 var requestData = {
@@ -127,9 +285,6 @@
                     $('#resultQuery').val(errorThrown);
                 });
             });
-
-            var resultTextArea = document.getElementById('resultQuery');
-            var myCodeMirror = CodeMirror.fromTextArea(resultTextArea);
         });
     </script>
 </body>
