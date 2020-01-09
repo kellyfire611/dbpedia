@@ -9,6 +9,8 @@
 
     <!-- Vendor CSS -->
     <link rel="stylesheet" href="/static/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/vendor/codemirror/lib/codemirror.css">
+
     <link rel="stylesheet" href="/static/css/app.css">
 </head>
 
@@ -61,12 +63,32 @@
         </div>
     </div>
 
+    <div class="contain">
+        <div class="row">
+            <div class="col">
+                <h2>Các câu ví dụ Truy vấn SPARQL DBPEDIA</h2>
+                <dl>
+                    <dt>Truy vấn thông tin SELECT EXAMPLE</dt>
+                    <dd>
+                        <pre><code>
+                            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                            SELECT ?label
+                            WHERE { <http://dbpedia.org/resource/Asturias> rdfs:label ?label }
+                        </code></pre>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
 
     <!-- Vendor Javascript -->
     <script src="/static/vendor/jquery/jquery-3.4.1.min.js"></script>
     <script src="/static/vendor/popperjs/popper.min.js"></script>
     <script src="/static/vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="/static/vendor/sweetalert2/sweetalert2.js"></script>
+    <script src="/static/vendor/codemirror/lib/codemirror.js"></script>
+    <script src="/static/vendor/codemirror/mode/javascript/javascript.js"></script>
+
     <script src="/static/js/app.js"></script>
     <script>
         $(document).ready(function () {
@@ -105,6 +127,9 @@
                     $('#resultQuery').val(errorThrown);
                 });
             });
+
+            var resultTextArea = document.getElementById('resultQuery');
+            var myCodeMirror = CodeMirror.fromTextArea(resultTextArea);
         });
     </script>
 </body>
