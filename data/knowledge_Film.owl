@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#has_Images">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.semprog.com/film#Movie"/>
+  </DatatypeProperty>
+  <ObjectProperty rdf:about="http://www.semprog.com/film#has_Award">
+    <rdfs:range rdf:resource="http://www.semprog.com/film#Award"/>
+    <rdfs:domain rdf:resource="http://www.semprog.com/film#Movie"/>
+  </ObjectProperty>
+  <ObjectProperty rdf:about="http://www.semprog.com/film#has_Start">
+    <rdfs:domain rdf:resource="http://www.semprog.com/film#Movie"/>
+    <rdfs:range rdf:resource="http://www.semprog.com/film#Start"/>
+  </ObjectProperty>
+  <ObjectProperty rdf:about="http://www.semprog.com/film#has_Producer">
+    <rdfs:range rdf:resource="http://www.semprog.com/film#Producer"/>
+    <rdfs:domain rdf:resource="http://www.semprog.com/film#Movie"/>
+  </ObjectProperty>
+  <ObjectProperty rdf:about="http://www.semprog.com/film#made_in">
+    <rdfs:domain rdf:resource="http://www.semprog.com/film#Movie"/>
+    <rdfs:range rdf:resource="http://www.semprog.com/film#Country"/>
+  </ObjectProperty>
+  <ObjectProperty rdf:about="http://www.semprog.com/film#has_Actor">
+    <rdfs:range rdf:resource="http://www.semprog.com/film#Actor"/>
+    <rdfs:domain rdf:resource="http://www.semprog.com/film#Movie"/>
+  </ObjectProperty>
+  <ObjectProperty rdf:about="http://www.semprog.com/film#has_Writer">
+    <rdfs:domain rdf:resource="http://www.semprog.com/film#Movie"/>
+    <rdfs:range rdf:resource="http://www.semprog.com/film#Writer"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  </ObjectProperty>
+  <ObjectProperty rdf:about="http://www.semprog.com/film#has_Language">
+    <rdfs:domain rdf:resource="http://www.semprog.com/film#Movie"/>
+    <rdfs:range rdf:resource="http://www.semprog.com/film#Language"/>
+  </ObjectProperty>
+  <DatatypeProperty rdf:about="http://www.semprog.com/film#has_Name">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.semprog.com/film#Movie"/>
+  </DatatypeProperty>
+  <ObjectProperty rdf:about="http://www.semprog.com/film#has_Director">
+    <rdfs:domain rdf:resource="http://www.semprog.com/film#Movie"/>
+    <rdfs:range rdf:resource="http://www.semprog.com/film#Director"/>
+  </ObjectProperty>
+  <ObjectProperty rdf:about="http://www.semprog.com/film#has_TypeFilm">
+    <rdfs:domain rdf:resource="http://www.semprog.com/film#Movie"/>
+    <rdfs:range rdf:resource="http://www.semprog.com/film#TypeFilm"/>
+  </ObjectProperty>
+  <Class rdf:about="http://www.semprog.com/film#Director">
+    <rdfs:subClassOf rdf:resource="http://www.semprog.com/film#Person"/>
+  </Class>
+  <Class rdf:about="http://www.semprog.com/film#Movie"/>
+  <Class rdf:about="http://www.semprog.com/film#Writer">
+    <rdfs:subClassOf rdf:resource="http://www.semprog.com/film#Person"/>
+  </Class>
+  <Class rdf:about="http://www.semprog.com/film#TypeFilm"/>
+  <Class rdf:about="http://www.semprog.com/film#Country"/>
+  <Class rdf:about="http://www.semprog.com/film#Award"/>
+  <Class rdf:about="http://www.semprog.com/film#Producer">
+    <rdfs:subClassOf rdf:resource="http://www.semprog.com/film#Person"/>
+  </Class>
+  <Class rdf:about="http://www.semprog.com/film#Actor">
+    <rdfs:subClassOf rdf:resource="http://www.semprog.com/film#Person"/>
+  </Class>
+  <Class rdf:about="http://www.semprog.com/film#Start"/>
+  <Class rdf:about="http://www.semprog.com/film#Language"/>
+  <Class rdf:about="http://www.semprog.com/film#Person"/>
+</rdf:RDF>
