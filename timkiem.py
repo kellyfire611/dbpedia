@@ -54,7 +54,7 @@ def login():
             ketqua ="<div class='row'>" #<thead><th>Tên Film</th><th>Film</th><th>Diễn viên</th></thead><tbody>"
             for x, y, z in results.result:
                 #ketqua += "<tr><td>"+ str(x) +"</td><td>"+ str(y) +"</td><td>"+ str(z) +"</td></tr>"
-                ketqua += "<div class='col-md-4'><div class='card'><img src='/static/images/tenfilm.png' class='card-img-top' alt='...'><div class='card-body'><div class='contentHeader'>"+ str(x) +"</div><div class='div_content'>Phim: <a href='" + str(y) + "'>"+ str(y) +"</a><br/>Diễn viên: <a href='" + str(z) + "'>"+ str(z) +"</a></div></div></div></div>"
+                ketqua += "<div class='col-md-4'><div class='card'><div class='card-body'><div class='contentHeader align-middle'>"+ str(x) +"</div><div class='div_content'>Phim: <a href='" + str(y) + "'>"+ str(y) +"</a><br/>Diễn viên: <a href='" + str(z) + "'>"+ str(z) +"</a></div></div></div></div>"
             #ketqua += "</tbody>"
             ketqua += "</div>"
             resp = make_response(ketqua)
@@ -87,7 +87,7 @@ def login():
                ketqua1 ="<div class='row'>" #<thead><th>Quốc gia</th><th>Film</th><th>Tên Film</th></thead><tbody>"
                for z, y, x in results1.result:
                   #ketqua1 += "<div class='contentHeader'>"+ str(x1) +"</div><div class='div_content'>Phim: <a href='" + str(y1) + "'>"+ str(y1) +"</a><br/>Diễn viên: <a href='" + str(z1) + "'>"+ str(z1) +"</a></div>"
-                  ketqua1 += "<div class='col-md-4'><div class='card'><img src='/static/images/quocgia.png' class='card-img-top' alt='...'><div class='card-body'><div class='contentHeader'>"+  str(x) +"</div><div class='div_content'>Tên phim: <a href='" +  str(y) + "'>"+  str(y) +"</a><br/>Quốc gia: <a href='" +  str(z) + "'>"+  str(z) +"</a></div></div></div></div>"
+                  ketqua1 += "<div class='col-md-4'><div class='card'><div class='card-body'><div class='contentHeader'>"+  str(x) +"</div><div class='div_content'>Tên phim: <a href='" +  str(y) + "'>"+  str(y) +"</a><br/>Quốc gia: <a href='" +  str(z) + "'>"+  str(z) +"</a></div></div></div></div>"
                ketqua1 += "</div>"
                resp = make_response(ketqua1)
                resp.headers['Content-Type'] = "application/json"
@@ -119,7 +119,7 @@ def login():
             ketqua2 ="<div class='row'>"#<thead><th>Nhà sản xuất</th><th>Film</th><th>Tên phim</th></thead><tbody>"
             for y, z,x in results2.result:
                 #ketqua2 += "<tr><td>"+ str(x2) +"</td><td>"+ str(y2) +"</td><td>"+ str(z2) +"</td></tr>"
-                ketqua2 += "<div class='col-md-4'><div class='card'><img src='/static/images/nhasanxuat.png' class='card-img-top' alt='...'><div class='card-body'><div class='contentHeader'>"+ str(x) +"</div><div class='div_content'>Nhà sản xuất: <a href='" + str(y) + "'>"+ str(y) +"</a><br/>Tên phim: <a href='" + str(z) + "'>"+ str(z) +"</a></div></div></div></div>"
+                ketqua2 += "<div class='col-md-4'><div class='card'><div class='card-body'><div class='contentHeader'>"+ str(x) +"</div><div class='div_content'>Nhà sản xuất: <a href='" + str(y) + "'>"+ str(y) +"</a><br/>Tên phim: <a href='" + str(z) + "'>"+ str(z) +"</a></div></div></div></div>"
             ketqua2 += "</div>"
             resp = make_response(ketqua2)
             resp.headers['Content-Type'] = "application/json"
@@ -153,7 +153,7 @@ def login():
             ketqua3 ="<div class='row'>"#<thead><th>Tên Film</th><th>Film</th><th>Diễn viên</th><thead><tbody>"
             for x, y, z in results3.result:
                 #ketqua3 += "<tr><td>"+ str(x3) +"</td><td>"+ str(z3) +"</td><td>"+ str(y3) +"</td></tr>"
-                ketqua3 += "<div class='col-md-4'><div class='card'><img src='/static/images/dienvien.png' class='card-img-top' alt='...'><div class='card-body'><div class='contentHeader'>"+ str(x) +"</div><div class='div_content'>Tên phim: <a href='" + str(y) + "'>"+ str(y) +"</a><br/>Diễn viên: <a href='" + str(z) + "'>"+ str(z) +"</a></div></div></div></div>"
+                ketqua3 += "<div class='col-md-4'><div class='card'><div class='card-body'><div class='contentHeader'>"+ str(x) +"</div><div class='div_content'>Tên phim: <a href='" + str(y) + "'>"+ str(y) +"</a><br/>Diễn viên: <a href='" + str(z) + "'>"+ str(z) +"</a></div></div></div></div>"
             ketqua3 += "</div>"
             resp = make_response(ketqua3)
             resp.headers['Content-Type'] = "application/json"
@@ -185,7 +185,7 @@ def login():
             ketqua4 ="<div class='row'>"#<thead><th>Năm sản xuất</th><th>Tên Film</th><th>Film</th><thead><tbody>"
             for y, x, z in results4.result:
                 #ketqua4 += "<tr><td>"+ str(x4) +"</td><td>"+ str(y4) +"</td><td>"+ str(z4) +"</td></tr>"
-                ketqua4 += "<div class='col-md-4'><div class='card'><img src='/static/images/namsanxuat.png' class='card-img-top' alt='...'><div class='card-body'><div class='contentHeader'>"+ str(x) +"</div><div class='div_content'>Năm sản xuất: <a href='" + str(y) + "'>"+ str(y) +"</a><br/>Tên phim: <a href='" + str(z) + "'>"+ str(z) +"</a></div></div></div></div>"
+                ketqua4 += "<div class='col-md-4'><div class='card'><div class='card-body'><div class='contentHeader'>"+ str(x) +"</div><div class='div_content'>Năm sản xuất: <a href='" + str(y) + "'>"+ str(y) +"</a><br/>Tên phim: <a href='" + str(z) + "'>"+ str(z) +"</a></div></div></div></div>"
             ketqua4 += "</div>"
             resp = make_response(ketqua4)
             resp.headers['Content-Type'] = "application/json"
