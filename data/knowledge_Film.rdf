@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns="http://www.w3.org/2002/07/owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://www.semprog.com/film#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Satyam_Shivam_Sundaram_(film)">
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:has_Name xml:lang="en">Satyam Shivam Sundaram (film)</ns1:has_Name>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Shemaroo_Entertainment"/>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1978-03-22</ns1:has_Start>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Zeenat_Aman"/>
+    </ns1:has_Actor>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Raj_Kapoor"/>
+    </ns1:has_Director>
+    <ns1:made_in>
+      <ns1:Country rdf:about="http://dbpedia.org/resource/India"/>
+    </ns1:made_in>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Shashi_Kapoor"/>
+    </ns1:has_Actor>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/BatMan_(2005)">
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Kirron_Kher"/>
+    </ns1:has_Actor>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Madhuri_Dixit"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Dina_Pathak"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Shah_Rukh_Khan"/>
+    </ns1:has_Actor>
+    <ns1:has_Name xml:lang="en">BatMan (2005 film)</ns1:has_Name>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Jackie_Shroff"/>
+    </ns1:has_Actor>
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/India"/>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Sanjay_Leela_Bhansali"/>
+    </ns1:has_Director>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-07-12</ns1:has_Start>
+    <ns1:has_Producer xml:lang="en">Mega Bollywood Pvt.LTD</ns1:has_Producer>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Milind_Gunaji"/>
+    </ns1:has_Actor>
+    <ns1:has_Producer xml:lang="en">SLB Films
+Universal Pictures Warner Bros. Pictures</ns1:has_Producer>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Chalte_Chalte_(2003_film)">
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/India"/>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-06-13</ns1:has_Start>
+    <ns1:has_Name xml:lang="en">Chalte Chalte (2003 film)</ns1:has_Name>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Red_Chillies_Entertainment"/>
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Shah_Rukh_Khan"/>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Aziz_Mirza"/>
+    </ns1:has_Director>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/UTV_Motion_Pictures"/>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/A_Zed_&amp;_Two_Noughts">
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Andréa_Ferréol"/>
+    </ns1:has_Actor>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1985-10-04</ns1:has_Start>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Film_score"/>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Peter_Greenaway"/>
+    </ns1:has_Director>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Joss_Ackland"/>
+    </ns1:has_Actor>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Skouras_Pictures"/>
+    <ns1:made_in>
+      <ns1:Country rdf:about="http://dbpedia.org/resource/Netherlands"/>
+    </ns1:made_in>
+    <ns1:made_in>
+      <ns1:Country rdf:about="http://dbpedia.org/resource/United_Kingdom"/>
+    </ns1:made_in>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Brian_Deacon"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Eric_Deacon"/>
+    </ns1:has_Actor>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Curzon_Artificial_Eye"/>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Minimal_music"/>
+    <ns1:has_Name xml:lang="en">A Zed &amp; Two Noughts</ns1:has_Name>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Frances_Barber"/>
+    </ns1:has_Actor>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Contemporary_classical_music"/>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Muthu_(1995_film)">
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-04-03</ns1:has_Start>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/K._S._Ravikumar"/>
+    </ns1:has_Director>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Kavithalayaa_Productions"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Rajinikanth"/>
+    </ns1:has_Actor>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-10-23</ns1:has_Start>
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/India"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Sarath_Babu"/>
+    </ns1:has_Actor>
+    <ns1:has_Name xml:lang="en">Muthu (1995 film)</ns1:has_Name>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Aaja_Nachle">
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Anil_Mehta"/>
+    </ns1:has_Director>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Jugal_Hansraj"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Akshaye_Khanna"/>
+    </ns1:has_Actor>
+    <ns1:has_Name xml:lang="en">Aaja Nachle</ns1:has_Name>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-11-30</ns1:has_Start>
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Madhuri_Dixit"/>
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/India"/>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Yash_Raj_Films"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Kunal_Kapoor"/>
+    </ns1:has_Actor>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Konkona_Sen_Sharma"/>
+    </ns1:has_Actor>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Aegan">
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Navdeep"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Suman_(actor)"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Nayanthara"/>
+    </ns1:has_Actor>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Ayngaran_International"/>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Raju_Sundaram"/>
+    </ns1:has_Director>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Piaa_Bajpai"/>
+    </ns1:has_Actor>
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/India"/>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-10-25</ns1:has_Start>
+    <ns1:has_Name xml:lang="en">Aegan</ns1:has_Name>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Ajith_Kumar"/>
+    </ns1:has_Actor>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Don't_Knock_the_Twist">
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Columbia_Pictures"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Lang_Jeffries"/>
+    </ns1:has_Actor>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Pop_rock"/>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1962-04-13</ns1:has_Start>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Gene_Chandler"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Chubby_Checker"/>
+    </ns1:has_Actor>
+    <ns1:has_Name xml:lang="en">Don't Knock the Twist</ns1:has_Name>
+    <ns1:made_in>
+      <ns1:Country rdf:about="http://dbpedia.org/resource/United_States"/>
+    </ns1:made_in>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Vic_Dana"/>
+    </ns1:has_Actor>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Oscar_Rudolph"/>
+    </ns1:has_Director>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Main_Hoon_Na">
+    <ns1:has_Name xml:lang="en">Main Hoon Na</ns1:has_Name>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Naseeruddin_Shah"/>
+    </ns1:has_Actor>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Red_Chillies_Entertainment"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Kabir_Bedi"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Murali_Sharma"/>
+    </ns1:has_Actor>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Farah_Khan"/>
+    </ns1:has_Director>
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/India"/>
+    <ns1:has_Producer xml:lang="en">Venus Records &amp; tapes Pvt Ltd</ns1:has_Producer>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Bindu_(actress)"/>
+    </ns1:has_Actor>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-04-30</ns1:has_Start>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Sushmita_Sen"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Zayed_Khan"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Kirron_Kher"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Boman_Irani"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Suniel_Shetty"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Amrita_Rao"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Shah_Rukh_Khan"/>
+    <ns1:has_Producer xml:lang="en">Eros International</ns1:has_Producer>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Armaan_(2003_film)">
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Preity_Zinta"/>
+    </ns1:has_Actor>
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/India"/>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Aarti_Enterprises"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Gracy_Singh"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Amitabh_Bachchan"/>
+    </ns1:has_Actor>
+    <ns1:has_Name xml:lang="en">Armaan (2003 film)</ns1:has_Name>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-05-16</ns1:has_Start>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Honey_Irani"/>
+    </ns1:has_Director>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Randhir_Kapoor"/>
+    </ns1:has_Actor>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Eros_International"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Anil_Kapoor"/>
+    </ns1:has_Actor>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Tears_of_the_Black_Tiger">
+    <ns1:made_in>
+      <ns1:Country rdf:about="http://dbpedia.org/resource/Thailand"/>
+    </ns1:made_in>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Easy_listening"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Sombat_Metanee"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Supakorn_Kitsuwon"/>
+    </ns1:has_Actor>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Five_Star_Production"/>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Big_band"/>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-09-28</ns1:has_Start>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Wisit_Sasanatieng"/>
+    </ns1:has_Director>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Jazz"/>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Magnolia_Pictures"/>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Pop_music"/>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-12</ns1:has_Start>
+    <ns1:has_Name xml:lang="en">Tears of the Black Tiger</ns1:has_Name>
+  </ns1:Movie>
+  <ObjectProperty rdf:about="http://www.semprog.com/film#has_Producer">
+    <rdfs:domain rdf:resource="http://www.semprog.com/film#Movie"/>
+    <rdfs:range rdf:resource="http://www.semprog.com/film#Producer"/>
+  </ObjectProperty>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Ang_Tanging_Ina">
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Nikki_Valdez"/>
+    </ns1:has_Actor>
+    <ns1:has_Name xml:lang="en">Ang Tanging Ina</ns1:has_Name>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Jiro_Manio"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Tuesday_Vargas"/>
+    </ns1:has_Actor>
+    <ns1:made_in>
+      <ns1:Country rdf:about="http://dbpedia.org/resource/Philippines"/>
+    </ns1:made_in>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Kaye_Abad"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Heart_Evangelista"/>
+    </ns1:has_Actor>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-05-28</ns1:has_Start>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Carlo_Aquino"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Angelica_Panganiban"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Roderick_Paulate"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Eugene_Domingo"/>
+    </ns1:has_Actor>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Wenn_V._Deramas"/>
+    </ns1:has_Director>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/John_Estrada"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Alwyn_Uytingco"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Serena_Dalrymple"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Ai-Ai_delas_Alas"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/John_Prats"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Marvin_Agustin"/>
+    </ns1:has_Actor>
+    <ns1:has_Producer xml:lang="en">Star Cinema</ns1:has_Producer>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Shaina_Magdayao"/>
+    </ns1:has_Actor>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Drama"/>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Comedy"/>
+  </ns1:Movie>
+  <DatatypeProperty rdf:about="http://www.semprog.com/film#has_Name">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.semprog.com/film#Movie"/>
+  </DatatypeProperty>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/The_Claim">
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/United_Artists"/>
+    <ns1:has_Name xml:lang="en">The Claim</ns1:has_Name>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Michael_Winterbottom"/>
+    </ns1:has_Director>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Wes_Bentley"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Nastassja_Kinski"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Peter_Mullan"/>
+    </ns1:has_Actor>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Minimal_music"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Sarah_Polley"/>
+    </ns1:has_Actor>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-12-29</ns1:has_Start>
+    <ns1:made_in>
+      <ns1:Country rdf:about="http://dbpedia.org/resource/Canada"/>
+    </ns1:made_in>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Contemporary_classical_music"/>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Pathé"/>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Beautiful_Thing_(film)">
+    <ns1:has_Name xml:lang="en">Beautiful Thing (film)</ns1:has_Name>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Ben_Daniels"/>
+    </ns1:has_Actor>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Pop_music"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Glen_Berry"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Scott_Neal"/>
+    </ns1:has_Actor>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Hettie_MacDonald"/>
+    </ns1:has_Director>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1996-06-21</ns1:has_Start>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Linda_Henry"/>
+    </ns1:has_Actor>
+    <ns1:has_Producer xml:lang="en">Sony Pictures Classics</ns1:has_Producer>
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/United_Kingdom"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Tameka_Empson"/>
+    </ns1:has_Actor>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Sillunu_Oru_Kaadhal">
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Studio_Green"/>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Bhumika_Chawla"/>
+    </ns1:has_Actor>
+    <ns1:has_Name xml:lang="en">Sillunu Oru Kaadhal</ns1:has_Name>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Suriya"/>
+    </ns1:has_Actor>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Krishna_(director)"/>
+    </ns1:has_Director>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Jyothika"/>
+    </ns1:has_Actor>
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/India"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Sukanya_(actress)"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Shriya_Sharma"/>
+    </ns1:has_Actor>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-09-08</ns1:has_Start>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Shorts:_The_Adventures_of_the_Wishing_Rock">
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/James_Spader"/>
+    </ns1:has_Actor>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-08-21</ns1:has_Start>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Leslie_Mann"/>
+    </ns1:has_Actor>
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/United_States"/>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Robert_Rodriguez"/>
+    </ns1:has_Director>
+    <ns1:has_Name xml:lang="en">Shorts: The Adventures of the Wishing Rock</ns1:has_Name>
+    <ns1:TypeFilm xml:lang="en">Movie Soundtrack, Film Score</ns1:TypeFilm>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Jimmy_Bennett"/>
+    </ns1:has_Actor>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Warner_Bros."/>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Rab_Ne_Bana_Di_Jodi">
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/India"/>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Yash_Raj_Films"/>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Aditya_Chopra"/>
+    </ns1:has_Director>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Anushka_Sharma"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Vinay_Pathak"/>
+    </ns1:has_Actor>
+    <ns1:has_Name xml:lang="en">Rab Ne Bana Di Jodi</ns1:has_Name>
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Shah_Rukh_Khan"/>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-12-12</ns1:has_Start>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Waisa_Bhi_Hota_Hai_Part_II">
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Anant_Jog"/>
+    </ns1:has_Actor>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:has_Name xml:lang="en">Waisa Bhi Hota Hai Part II</ns1:has_Name>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Shashanka_Ghosh"/>
+    </ns1:has_Director>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-11-14</ns1:has_Start>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Impact_Films"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Sandhya_Mridul"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Prashant_Narayanan"/>
+    </ns1:has_Actor>
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/India"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Arshad_Warsi"/>
+    </ns1:has_Actor>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Enga_Veettu_Pillai">
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/India"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/M._G._Ramachandran"/>
+    </ns1:has_Actor>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Vijaya_Vauhini_Studios"/>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Tapi_Chanakya"/>
+    </ns1:has_Director>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1965-01-14</ns1:has_Start>
+    <ns1:has_Name xml:lang="en">Enga Veettu Pillai</ns1:has_Name>
+  </ns1:Movie>
+  <DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#has_Images">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.semprog.com/film#Movie"/>
+  </DatatypeProperty>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Mohabbatein">
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Uday_Chopra"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Shah_Rukh_Khan"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Shefali_Shah"/>
+    </ns1:has_Actor>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-10-27</ns1:has_Start>
+    <ns1:has_Director rdf:resource="http://dbpedia.org/resource/Aditya_Chopra"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Helen_(actress)"/>
+    </ns1:has_Actor>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Anupam_Kher"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Preeti_Jhangiani"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Amitabh_Bachchan"/>
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Jugal_Hansraj"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Kim_Sharma"/>
+    </ns1:has_Actor>
+    <ns1:has_Name xml:lang="en">Mohabbatein</ns1:has_Name>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Shamita_Shetty"/>
+    </ns1:has_Actor>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Yash_Raj_Films"/>
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/India"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Jimmy_Shergill"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Amrish_Puri"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Archana_Puran_Singh"/>
+    </ns1:has_Actor>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Action_Hero_Biju">
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Abrid_Shine"/>
+    </ns1:has_Director>
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/India"/>
+    <ns1:has_Name xml:lang="en">Action Hero Biju</ns1:has_Name>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Lal_Jose"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Nivin_Pauly"/>
+    </ns1:has_Actor>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-02-04</ns1:has_Start>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Everything_Goes_Wrong">
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Tomoko_Naraoka"/>
+    </ns1:has_Actor>
+    <ns1:made_in>
+      <ns1:Country rdf:about="http://dbpedia.org/resource/Japan"/>
+    </ns1:made_in>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Jazz"/>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Nikkatsu"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Shinsuke_Ashida"/>
+    </ns1:has_Actor>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:has_Name xml:lang="en">Everything Goes Wrong</ns1:has_Name>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1960-10-08</ns1:has_Start>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Seijun_Suzuki"/>
+    </ns1:has_Director>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Kannathil_Muthamittal">
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Simran_(actress)"/>
+    </ns1:has_Actor>
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/India"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Nandita_Das"/>
+    </ns1:has_Actor>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Madras_Talkies"/>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Siddharth_(actor)"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Pasupathy"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Prakash_Raj"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Shefali_Chowdhury"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/J._D._Chakravarthy"/>
+    </ns1:has_Actor>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-02-14</ns1:has_Start>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/P._S._Keerthana"/>
+    </ns1:has_Actor>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Mani_Ratnam"/>
+    </ns1:has_Director>
+    <ns1:has_Name xml:lang="en">Kannathil Muthamittal</ns1:has_Name>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Aśoka_(film)">
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Shah_Rukh_Khan"/>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/World_music"/>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Santosh_Sivan"/>
+    </ns1:has_Director>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Kareena_Kapoor"/>
+    </ns1:has_Actor>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Red_Chillies_Entertainment"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Hrishitaa_Bhatt"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Ajith_Kumar"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Danny_Denzongpa"/>
+    </ns1:has_Actor>
+    <ns1:has_Name xml:lang="en">Aśoka (film)</ns1:has_Name>
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/India"/>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-10-26</ns1:has_Start>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/The_Legend_of_Bhagat_Singh">
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Amrita_Rao"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Ajay_Devgan"/>
+    </ns1:has_Actor>
+    <ns1:has_Name xml:lang="en">The Legend of Bhagat Singh</ns1:has_Name>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/D._Santosh"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Sushant_Singh"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Farida_Jalal"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Raj_Babbar"/>
+    </ns1:has_Actor>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-06-07</ns1:has_Start>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Rajkumar_Santoshi"/>
+    </ns1:has_Director>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Tips_Industries_Limited"/>
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/India"/>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Jaane_Tu..._Ya_Jaane_Na">
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Abbas_Tyrewala"/>
+    </ns1:has_Director>
+    <ns1:has_Name xml:lang="en">Jaane Tu... Ya Jaane Na</ns1:has_Name>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-07-04</ns1:has_Start>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Imran_Khan_(Indian_actor)"/>
+    </ns1:has_Actor>
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/India"/>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Aamir_Khan_Productions"/>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Excel_Entertainment"/>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Premer_Kahini">
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Jisshu_Sengupta"/>
+    </ns1:has_Actor>
+    <ns1:has_Name xml:lang="en">Premer Kahini</ns1:has_Name>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Ranjit_Mallick"/>
+    </ns1:has_Actor>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Shree_Venkatesh_Films"/>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Rabi_Kinagi"/>
+    </ns1:has_Director>
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/India"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Koel_Mallick"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Dev_(actor)"/>
+    </ns1:has_Actor>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-04-11</ns1:has_Start>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Everybody_Says_I'm_Fine!">
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Rahul_Bose">
+        <rdf:type rdf:resource="http://www.semprog.com/film#Director"/>
+      </ns1:Actor>
+    </ns1:has_Actor>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-09-12</ns1:has_Start>
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/India"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Pooja_Bhatt"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Anahita_Uberoi"/>
+    </ns1:has_Actor>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Boman_Irani"/>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Pinnacle_Entertainments"/>
+    <ns1:has_Director rdf:resource="http://dbpedia.org/resource/Rahul_Bose"/>
+    <ns1:has_Name xml:lang="en">Everybody Says I'm Fine!</ns1:has_Name>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Koel_Purie"/>
+    </ns1:has_Actor>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Happy,_Texas_(film)">
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Steve_Zahn"/>
+    </ns1:has_Actor>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-10-01</ns1:has_Start>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Ally_Walker"/>
+    </ns1:has_Actor>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Country_music"/>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Miramax"/>
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/United_States"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Illeana_Douglas"/>
+    </ns1:has_Actor>
+    <ns1:has_Name xml:lang="en">Happy, Texas (film)</ns1:has_Name>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Mark_Illsley"/>
+    </ns1:has_Director>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Tejano_music"/>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Exotica"/>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Ek_Aur_Ek_Gyarah">
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Nandini_Singh"/>
+    </ns1:has_Actor>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/David_Dhawan"/>
+    </ns1:has_Director>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Sanjay_Dutt"/>
+    </ns1:has_Actor>
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/India"/>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-03-28</ns1:has_Start>
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Jackie_Shroff"/>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Mukta_Arts"/>
+    <ns1:has_Name xml:lang="en">Ek Aur Ek Gyarah</ns1:has_Name>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Amrita_Arora"/>
+    </ns1:has_Actor>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Dr._Dolittle_(film)">
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/United_States"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Ossie_Davis"/>
+    </ns1:has_Actor>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Betty_Thomas"/>
+    </ns1:has_Director>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Hip_hop_music"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Oliver_Platt"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Eddie_Murphy"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Kristen_Wilson"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Kyla_Pratt"/>
+    </ns1:has_Actor>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-06-26</ns1:has_Start>
+    <ns1:has_Producer rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns1:has_Producer>
+    <ns1:has_Name xml:lang="en">Dr. Dolittle (film)</ns1:has_Name>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Norm_Macdonald"/>
+    </ns1:has_Actor>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Contemporary_R&amp;B"/>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Eklavya:_The_Royal_Guard">
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Vidhu_Vinod_Chopra"/>
+    </ns1:has_Director>
+    <ns1:has_Name xml:lang="en">Eklavya: The Royal Guard</ns1:has_Name>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Raima_Sen"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Amitabh_Bachchan"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Vidya_Balan"/>
+    </ns1:has_Actor>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Vidhu_Vinod_Chopra"/>
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Sanjay_Dutt"/>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-02-16</ns1:has_Start>
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/India"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Sharmila_Tagore"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Jackie_Shroff"/>
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Boman_Irani"/>
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Jimmy_Shergill"/>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Love_Story_2050">
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/India"/>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-07-04</ns1:has_Start>
+    <ns1:has_Name xml:lang="en">Love Story 2050</ns1:has_Name>
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Boman_Irani"/>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Harry_Baweja"/>
+    </ns1:has_Director>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Priyanka_Chopra"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Archana_Puran_Singh"/>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Harman_Baweja"/>
+    </ns1:has_Actor>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Baweja_Movies"/>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Oscar_and_Lucinda_(film)">
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Contemporary_classical_music"/>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Fox_Searchlight_Pictures"/>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Gillian_Armstrong"/>
+    </ns1:has_Director>
+    <ns1:has_Name xml:lang="en">Oscar and Lucinda (film)</ns1:has_Name>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-12-31</ns1:has_Start>
+    <ns1:made_in>
+      <ns1:Country rdf:about="http://dbpedia.org/resource/Australia"/>
+    </ns1:made_in>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Ralph_Fiennes"/>
+    </ns1:has_Actor>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Rebel_(2012_film)">
+    <ns1:has_Producer rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</ns1:has_Producer>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Deeksha_Seth"/>
+    </ns1:has_Actor>
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/India"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Brahmanandam"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Tamannaah"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Krishnam_Raju"/>
+    </ns1:has_Actor>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-09-28</ns1:has_Start>
+    <ns1:has_Producer xml:lang="en">N.V.Prasad</ns1:has_Producer>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Raghava_Lawrence"/>
+    </ns1:has_Director>
+    <ns1:has_Producer rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ns1:has_Producer>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Sri_Venkateswara_Creations"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Prabhas"/>
+    </ns1:has_Actor>
+    <ns1:has_Name xml:lang="en">Rebel (2012 film)</ns1:has_Name>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Taj_Mahal:_An_Eternal_Love_Story">
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-11-18</ns1:has_Start>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Manisha_Koirala"/>
+    </ns1:has_Actor>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Akbar_Khan_(director)"/>
+    </ns1:has_Director>
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Kabir_Bedi"/>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Mashreq_Communications_Ltd."/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Sonya_Jehan"/>
+    </ns1:has_Actor>
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/India"/>
+    <ns1:has_Name xml:lang="en">Taj Mahal: An Eternal Love Story</ns1:has_Name>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Arbaaz_Khan_(Indian_actor)"/>
+    </ns1:has_Actor>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Mujhse_Shaadi_Karogi">
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Priyanka_Chopra"/>
+    <ns1:has_Director rdf:resource="http://dbpedia.org/resource/David_Dhawan"/>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Sajid_Nadiadwala"/>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-07-30</ns1:has_Start>
+    <ns1:has_Name xml:lang="en">Mujhse Shaadi Karogi</ns1:has_Name>
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/India"/>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Anbe_Vaa">
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1966-01-14</ns1:has_Start>
+    <ns1:has_Producer xml:lang="en">AVM Productions</ns1:has_Producer>
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/M._G._Ramachandran"/>
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/India"/>
+    <ns1:has_Name xml:lang="en">Anbe Vaa</ns1:has_Name>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/A._C._Tirulokchandar"/>
+    </ns1:has_Director>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/B._Saroja_Devi"/>
+    </ns1:has_Actor>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Rangbaaz_(2013_film)">
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Jalsha_Movies_Production"/>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Raja_Chanda"/>
+    </ns1:has_Director>
+    <ns1:has_Name xml:lang="en">Rangbaaz (2013 film)</ns1:has_Name>
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/India"/>
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Koel_Mallick"/>
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Dev_(actor)"/>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-10-11</ns1:has_Start>
+    <ns1:has_Producer xml:lang="en">Surinder Films</ns1:has_Producer>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Singh_Is_Kinng">
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Reliance_Entertainment"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Neha_Dhupia"/>
+    </ns1:has_Actor>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-08-08</ns1:has_Start>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Javed_Jaffrey"/>
+    </ns1:has_Actor>
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/India"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Sonu_Sood"/>
+    </ns1:has_Actor>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Viacom_18_Motion_Pictures"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Om_Puri"/>
+    </ns1:has_Actor>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Anees_Bazmee"/>
+    </ns1:has_Director>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Ranvir_Shorey"/>
+    </ns1:has_Actor>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:has_Name xml:lang="en">Singh Is Kinng</ns1:has_Name>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Sudhanshu_Pandey"/>
+    </ns1:has_Actor>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Kabhi_Alvida_Naa_Kehna">
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Karan_Johar"/>
+    </ns1:has_Director>
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Amitabh_Bachchan"/>
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/India"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Abhishek_Bachchan"/>
+    </ns1:has_Actor>
+    <ns1:has_Producer xml:lang="en">Yash Raj Films</ns1:has_Producer>
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Shah_Rukh_Khan"/>
+    <ns1:has_Name xml:lang="en">Kabhi Alvida Naa Kehna</ns1:has_Name>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-08-11</ns1:has_Start>
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Preity_Zinta"/>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Dharma_Productions"/>
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Kirron_Kher"/>
+  </ns1:Movie>
+  <ObjectProperty rdf:about="http://www.semprog.com/film#has_Writer">
+    <rdfs:domain rdf:resource="http://www.semprog.com/film#Movie"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:range rdf:resource="http://www.semprog.com/film#Writer"/>
+  </ObjectProperty>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Mere_Yaar_Ki_Shaadi_Hai">
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Yash_Raj_Films"/>
+    <ns1:has_Name xml:lang="en">Mere Yaar Ki Shaadi Hai</ns1:has_Name>
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Jimmy_Shergill"/>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-06-07</ns1:has_Start>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Sanjay_Gadhvi"/>
+    </ns1:has_Director>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Tulip_Joshi"/>
+    </ns1:has_Actor>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Bipasha_Basu"/>
+    </ns1:has_Actor>
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/India"/>
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Uday_Chopra"/>
+  </ns1:Movie>
+  <ObjectProperty rdf:about="http://www.semprog.com/film#has_TypeFilm">
+    <rdfs:domain rdf:resource="http://www.semprog.com/film#Movie"/>
+    <rdfs:range rdf:resource="http://www.semprog.com/film#TypeFilm"/>
+  </ObjectProperty>
+  <ObjectProperty rdf:about="http://www.semprog.com/film#has_Award">
+    <rdfs:domain rdf:resource="http://www.semprog.com/film#Movie"/>
+    <rdfs:range rdf:resource="http://www.semprog.com/film#Award"/>
+  </ObjectProperty>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Nishwartha_Bhalobasa">
+    <ns1:has_Name xml:lang="en">Nishwartha Bhalobasa</ns1:has_Name>
+    <ns1:has_Actor>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Ananta_Jalil">
+        <rdf:type rdf:resource="http://www.semprog.com/film#Actor"/>
+      </ns1:Director>
+    </ns1:has_Actor>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Monsoon_Films"/>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:made_in>
+      <ns1:Country rdf:about="http://dbpedia.org/resource/Bangladesh"/>
+    </ns1:made_in>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-08-08</ns1:has_Start>
+    <ns1:has_Director rdf:resource="http://dbpedia.org/resource/Ananta_Jalil"/>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Kiss_of_the_Dragon">
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Hip_hop_music"/>
+    <ns1:has_Name xml:lang="en">Kiss of the Dragon</ns1:has_Name>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Tchéky_Karyo"/>
+    </ns1:has_Actor>
+    <ns1:made_in>
+      <ns1:Country rdf:about="http://dbpedia.org/resource/France"/>
+    </ns1:made_in>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Chris_Nahon"/>
+    </ns1:has_Director>
+    <ns1:has_Producer rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns1:has_Producer>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-07-06</ns1:has_Start>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Electronic_music"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Jet_Li"/>
+    </ns1:has_Actor>
+  </ns1:Movie>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Lakshya_(film)">
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Hrithik_Roshan"/>
+    </ns1:has_Actor>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Excel_Entertainment"/>
+    <ns1:has_Name xml:lang="en">Lakshya (film)</ns1:has_Name>
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Amitabh_Bachchan"/>
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-06-18</ns1:has_Start>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/India"/>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Farhan_Akhtar"/>
+    </ns1:has_Director>
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Preity_Zinta"/>
+  </ns1:Movie>
+  <ObjectProperty rdf:about="http://www.semprog.com/film#has_Language">
+    <rdfs:range rdf:resource="http://www.semprog.com/film#Language"/>
+    <rdfs:domain rdf:resource="http://www.semprog.com/film#Movie"/>
+  </ObjectProperty>
+  <ns1:Movie rdf:about="http://dbpedia.org/resource/Humraaz">
+    <ns1:has_Start rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-07-05</ns1:has_Start>
+    <ns1:has_Director>
+      <ns1:Director rdf:about="http://dbpedia.org/resource/Abbas–Mustan"/>
+    </ns1:has_Director>
+    <ns1:TypeFilm rdf:resource="http://dbpedia.org/resource/Soundtrack"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Ameesha_Patel"/>
+    </ns1:has_Actor>
+    <ns1:has_Name xml:lang="en">Humraaz</ns1:has_Name>
+    <ns1:has_Producer rdf:resource="http://dbpedia.org/resource/Venus_Movies"/>
+    <ns1:has_Actor>
+      <ns1:Actor rdf:about="http://dbpedia.org/resource/Bobby_Deol"/>
+    </ns1:has_Actor>
+    <ns1:made_in rdf:resource="http://dbpedia.org/resource/India"/>
+    <ns1:has_Actor rdf:resource="http://dbpedia.org/resource/Akshaye_Khanna"/>
+  </ns1:Movie>
+  <ObjectProperty rdf:about="http://www.semprog.com/film#has_Actor">
+    <rdfs:range rdf:resource="http://www.semprog.com/film#Actor"/>
+    <rdfs:domain rdf:resource="http://www.semprog.com/film#Movie"/>
+  </ObjectProperty>
+  <ObjectProperty rdf:about="http://www.semprog.com/film#made_in">
+    <rdfs:domain rdf:resource="http://www.semprog.com/film#Movie"/>
+    <rdfs:range rdf:resource="http://www.semprog.com/film#Country"/>
+  </ObjectProperty>
+  <ObjectProperty rdf:about="http://www.semprog.com/film#has_Start">
+    <rdfs:range rdf:resource="http://www.semprog.com/film#Start"/>
+    <rdfs:domain rdf:resource="http://www.semprog.com/film#Movie"/>
+  </ObjectProperty>
+  <ObjectProperty rdf:about="http://www.semprog.com/film#has_Director">
+    <rdfs:domain rdf:resource="http://www.semprog.com/film#Movie"/>
+    <rdfs:range rdf:resource="http://www.semprog.com/film#Director"/>
+  </ObjectProperty>
+  <Class rdf:about="http://www.semprog.com/film#Movie"/>
+  <Class rdf:about="http://www.semprog.com/film#Country"/>
+  <Class rdf:about="http://www.semprog.com/film#Writer">
+    <rdfs:subClassOf rdf:resource="http://www.semprog.com/film#Person"/>
+  </Class>
+  <Class rdf:about="http://www.semprog.com/film#Actor">
+    <rdfs:subClassOf rdf:resource="http://www.semprog.com/film#Person"/>
+  </Class>
+  <Class rdf:about="http://www.semprog.com/film#Director">
+    <rdfs:subClassOf rdf:resource="http://www.semprog.com/film#Person"/>
+  </Class>
+  <Class rdf:about="http://www.semprog.com/film#Producer">
+    <rdfs:subClassOf rdf:resource="http://www.semprog.com/film#Person"/>
+  </Class>
+  <Class rdf:about="http://www.semprog.com/film#TypeFilm"/>
+  <Class rdf:about="http://www.semprog.com/film#Start"/>
+  <Class rdf:about="http://www.semprog.com/film#Person"/>
+  <Class rdf:about="http://www.semprog.com/film#Language"/>
+  <Class rdf:about="http://www.semprog.com/film#Award"/>
+</rdf:RDF>

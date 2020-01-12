@@ -1,0 +1,108 @@
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	background:	#F5F5F5;
+	color:#002B5A;
+}
+a{
+	text-decoration:none;
+}
+.wrapper{
+	width: 1000px;
+	margin: 0 auto;
+	border-left:1px solid #eee;
+	border-right:1px solid #eee;
+	min-height:700px;
+	position:relative;
+	background:#FFFFFF;
+}
+.header{
+	width:100%;
+	height: 140px;
+	background:url(images/header.jpg);
+	background-size:cover;	
+}
+.header h3{
+	font-family: Tahoma;
+	font-size:32px;
+	font-weight:bold;
+	padding:50px;
+	color:#00388F;
+	text-shadow:1px 1px 1px #ffffff;
+	text-transform:uppercase;
+	/*color:#fbbc05;*/
+}
+.contentHeader{
+	font-size:22px;
+	font-weight:bold;	
+}
+.content{
+	font-weight:normal;
+	padding-bottom: 20px;
+	min-height:270px;
+}
+.formSearch{
+	width: 800px;
+	height:40px;
+	margin: 20px auto;
+	
+	position:relative;
+}
+.key{
+	width: 740px;
+	/*-webkit-box-sizing:border;*/
+	line-height:40px;
+	height:40px;
+	font-size:18px;
+	float:left;
+		
+}
+.btnSearch{
+
+	width: 40px;
+	height: 40px;
+	background:url("images/Search-button1.png");
+	background-size:cover;
+	border:0;
+	
+	float:right;
+}
+.showResult{
+	border:1px solid #ccc;
+	border-radius:10px;
+	margin:10px;
+	padding:10px;
+}
+.footer{
+	background:#1F2E4A;
+	width:100%;
+	/*position:absolute;
+	left:0;
+	bottom:0;*/
+	color:#000000;
+	background:url(images/footer_bg.jpg);
+	background-size:cover;
+}
+.footerContent{
+	padding:15px 20px;
+	line-height:20px;
+}
+.footer div{
+	
+}
+.footer div.w50{
+	width: 50%;
+	float:left;
+}
+.footer span{
+	font-weight:bold;
+	font-size:16px;
+}
+.clear{
+	clear:both;
+}

@@ -1,292 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html dir="ltr" lang="en-US">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>DBPedia Python</title>
+	<title>CSS3 + jQuery Search Form</title>
 
-    <!-- Vendor CSS -->
-    <link rel="stylesheet" href="/static/vendor/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/lib/codemirror.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/3024-day.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/3024-night.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/abcdef.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/ambiance.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/ayu-dark.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/ayu-mirage.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/base16-dark.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/bespin.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/base16-light.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/blackboard.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/cobalt.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/colorforth.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/dracula.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/duotone-dark.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/duotone-light.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/eclipse.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/elegant.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/erlang-dark.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/gruvbox-dark.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/hopscotch.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/icecoder.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/isotope.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/lesser-dark.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/liquibyte.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/lucario.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/material.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/material-darker.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/material-palenight.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/material-ocean.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/mbo.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/mdn-like.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/midnight.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/monokai.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/moxer.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/neat.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/neo.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/night.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/nord.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/oceanic-next.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/panda-syntax.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/paraiso-dark.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/paraiso-light.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/pastel-on-dark.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/railscasts.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/rubyblue.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/seti.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/shadowfox.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/solarized.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/the-matrix.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/tomorrow-night-bright.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/tomorrow-night-eighties.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/ttcn.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/twilight.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/vibrant-ink.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/xq-dark.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/xq-light.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/yeti.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/idea.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/darcula.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/yonce.css">
-    <link rel="stylesheet" href="/static/vendor/codemirror/theme/zenburn.css">
 
-    <link rel="stylesheet" href="/static/css/app.css">
-</head>
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700' rel='stylesheet' type='text/css'>
 
-<body>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h1 class="display-4">Demo truy xuất DBPEDIA</h1>
-                <p class="lead">Đây là demo truy xuất dữ liệu DBPEDIA bằng ngôn ngữ SPARQL</p>
-                <p>Chỉ dùng cho mục đích Nghiên cứu và Học tập Web Ngữ nghĩa</p>
-                <hr class="my-4">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col col-md-6">
-                <form name="frmQuery" method="post" action="#">
-                    <div class="form-group">
-                        <label for="sparqlEndpoint">SPARQL Endpoint</label>
-                        <input type="text" class="form-control" name="sparqlEndpoint" id="sparqlEndpoint"
-                            aria-describedby="sparqlEndpointHelp" value="http://dbpedia.org/sparql">
-                        <small id="sparqlEndpointHelp" class="form-text text-muted">Cổng truy xuất dữ liệu bằng SPARQL
-                            của
-                            DBPedia.</small>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputGraphURI">Default Graph URI</label>
-                        <input type="text" class="form-control" name="inputGraphURI" id="inputGraphURI"
-                            aria-describedby="inputGraphURIHelp">
-                        <small id="inputGraphURIHelp" class="form-text text-muted"></small>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputQuery">Query Text</label>
-                        <textarea type="text" class="form-control" name="inputQuery" id="inputQuery"
-                            aria-describedby="inputQueryHelp" rows="10"></textarea>
-                        <small id="inputQueryHelp" class="form-text text-muted">Câu lệnh Truy vấn DBPEDIA sử dụng
-                            SPARQL.</small>
-                    </div>
-                    <button type="button" class="btn btn-primary" id="btnExecuteQuery">Thực hiện QUERY</button>
-                </form>
-            </div>
-            <div class="col col-md-6">
-                <div class="card mt-2">
-                    <h5 class="card-header bg-success" style="color: #fff;">Kết quả</h5>
-                    <div class="card-body">
-                        <h5 class="card-title">Kết quả trả về</h5>
-                        <textarea class="form-control" name="resultQuery" id="resultQuery" rows="15"></textarea>
-                    </div>
-                    <p>Chọn giao diện:
-                        <select onchange="selectTheme()" id="selectTheme">
-                            <option selected>Mặc định</option>
-                            <option>3024-day</option>
-                            <option>3024-night</option>
-                            <option>abcdef</option>
-                            <option>ambiance</option>
-                            <option>ayu-dark</option>
-                            <option>ayu-mirage</option>
-                            <option>base16-dark</option>
-                            <option>base16-light</option>
-                            <option>bespin</option>
-                            <option>blackboard</option>
-                            <option>cobalt</option>
-                            <option>colorforth</option>
-                            <option>darcula</option>
-                            <option>dracula</option>
-                            <option>duotone-dark</option>
-                            <option>duotone-light</option>
-                            <option>eclipse</option>
-                            <option>elegant</option>
-                            <option>erlang-dark</option>
-                            <option>gruvbox-dark</option>
-                            <option>hopscotch</option>
-                            <option>icecoder</option>
-                            <option>idea</option>
-                            <option>isotope</option>
-                            <option>lesser-dark</option>
-                            <option>liquibyte</option>
-                            <option>lucario</option>
-                            <option>material</option>
-                            <option>material-darker</option>
-                            <option>material-palenight</option>
-                            <option>material-ocean</option>
-                            <option>mbo</option>
-                            <option>mdn-like</option>
-                            <option>midnight</option>
-                            <option>monokai</option>
-                            <option>moxer</option>
-                            <option>neat</option>
-                            <option>neo</option>
-                            <option>night</option>
-                            <option>nord</option>
-                            <option>oceanic-next</option>
-                            <option>panda-syntax</option>
-                            <option>paraiso-dark</option>
-                            <option>paraiso-light</option>
-                            <option>pastel-on-dark</option>
-                            <option>railscasts</option>
-                            <option>rubyblue</option>
-                            <option>seti</option>
-                            <option>shadowfox</option>
-                            <option>solarized dark</option>
-                            <option>solarized light</option>
-                            <option>the-matrix</option>
-                            <option>tomorrow-night-bright</option>
-                            <option>tomorrow-night-eighties</option>
-                            <option>ttcn</option>
-                            <option>twilight</option>
-                            <option>vibrant-ink</option>
-                            <option>xq-dark</option>
-                            <option>xq-light</option>
-                            <option>yeti</option>
-                            <option>yonce</option>
-                            <option>zenburn</option>
-                        </select>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
+	<!-- jQuery -->
+	<!--<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>-->
+		<script type="text/javascript" src="{{ url_for('static', filename='jquery-1.7.1.min.js') }}"></script>
 
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h2>Các câu ví dụ Truy vấn SPARQL DBPEDIA</h2>
-                <dl>
-                    <dt>Truy vấn thông tin SELECT EXAMPLE</dt>
-                    <dd>
-                        <pre><code>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-    SELECT ?label
-    WHERE { <http://dbpedia.org/resource/Asturias> rdfs:label ?label }
-                        </code></pre>
-                    </dd>
-                </dl>
-            </div>
-        </div>
-    </div>
-
-    <!-- Vendor Javascript -->
-    <script src="/static/vendor/jquery/jquery-3.4.1.min.js"></script>
-    <script src="/static/vendor/popperjs/popper.min.js"></script>
-    <script src="/static/vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script src="/static/vendor/sweetalert2/sweetalert2.js"></script>
-
-    <script src="/static/vendor/codemirror/lib/codemirror.js"></script>
-    <script src="/static/vendor/codemirror/mode/javascript/javascript.js"></script>
-    <script src="/static/vendor/codemirror/addon/selection/active-line.js"></script>
-    <script src="/static/vendor/codemirror/addon/edit/matchbrackets.js"></script>
-
-    <script src="/static/js/app.js"></script>
-    <script>
-        var editor = CodeMirror.fromTextArea(document.getElementById("resultQuery"), {
-            lineNumbers: true,
-            styleActiveLine: true,
-            matchBrackets: true
+	<!-- jQuery Easing -->
+	<!--<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>-->
+<script type="text/javascript" src="{{ url_for('static', filename='jquery.easing.1.3.js') }}"></script>
+	<!-- Functions -->
+	<!--<script type="text/javascript" src="js/functions.js"></script>-->
+		<script type="text/javascript" src="{{ url_for('static', filename='functions.js') }}"></script>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+		<script>
+			function timkiem(){
+	alert("ok men fs")
+				var noidung = $("#noidungtim").val();
+				 var jqXHR = $.ajax({
+            type: "POST",
+            url: "/login",
+            async: false,
+            data: { mydata: noidung }
         });
-        var input = document.getElementById("selectTheme");
+		$("#noidungkq").html(jqXHR.responseText)
+        alert(jqXHR.responseText);
+}
+		</script>
+	</head>
 
-        function selectTheme() {
-            var theme = input.options[input.selectedIndex].textContent;
-            editor.setOption("theme", theme);
-            location.hash = "#" + theme;
-        }
-        var choice = (location.hash && location.hash.slice(1)) ||
-            (document.location.search &&
-                decodeURIComponent(document.location.search.slice(1)));
-        if (choice) {
-            input.value = choice;
-            editor.setOption("theme", choice);
-        }
-        CodeMirror.on(window, "hashchange", function () {
-            var theme = location.hash.slice(1);
-            if (theme) {
-                input.value = theme;
-                selectTheme();
-            }
-        });
-
-        $(document).ready(function () {
-            $('#btnExecuteQuery').click(function () {
-                var requestData = {
-                    sparqlEndpoint: $('#sparqlEndpoint').val(),
-                    inputGraphURI: $('#inputGraphURI').val(),
-                    inputQuery: $('#inputQuery').val()
-                };
-
-                $('#resultQuery').val('');
-                $.ajax({
-                    url: '/runQuery',
-                    type: "POST",
-                    data: requestData,
-                    dataType: 'json'
-                }).done(function (data) {
-                    // If successful
-                    console.log(data);
-                    Swal.fire({
-                        icon: 'success',
-                        title: 'Truy vấn thành công!',
-                        text: 'Dữ liệu trả về từ DBPEDIA được hiển thị dưới dạng JSON!'
-                    });
-                    debugger;
-                    $('#resultQuery').val(data);
-                }).fail(function (jqXHR, textStatus, errorThrown) {
-                    // If fail
-                    console.log(textStatus + ': ' + errorThrown);
-                    Swal.fire({
-                        icon: 'error',
-                        title: 'Oops...',
-                        text: 'Có lỗi xảy ra khi truy xuất dữ liệu từ DBPEDIA!'
-                    });
-                    debugger;
-                    $('#resultQuery').val(errorThrown);
-                });
-            });
-        });
-    </script>
-</body>
-
+	<body>
+	<span>
+		<input id="noidungtim" type="text" >
+		<button type="button" onclick="timkiem()">Tìm kiếm</button>
+		</span>
+	<hr>
+	<br>
+	<div id="noidungkq"></div>
+		<div id="footer">
+			<h3>Biệt đội siêu heo</h3>
+		</div>
+	</body>
 </html>

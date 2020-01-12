@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>He thong tim kiem phim</title>
+    <!-- jQuery -->
+	<!--<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>-->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery-1.7.1.min.js') }}"></script>
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/mainstyle.css') }}">
+    <!--ham xu ly ajax -->
+    <script>
+        $(document).ready(function(){
+            $("#chonloaitruyvan").live("change",function(){
+                 $("#noidungtim").val("")
+            })
+            $('#noidungtim').keypress(function(e){
+              if(e.keyCode==13) {
+                  timkiem();
+                  return false;
+              }
+            });
+
+
+        })
+
+         function timkiem(){
+             var noidung = $("#noidungtim").val();
+             //dau tien la phai phan loai xem nguoi dung muon tim gi
+             //dat mac dinh mangcontent[0] chinh la yeu cau tim kiem theo cau truy van nao
+             var kindquery= "film"
+             var loaicantim = $("#chonloaitruyvan").val();
+             if(loaicantim!="" && noidung != "") {
+                 //alert(loaicantim)
+                 switch (loaicantim) {
+                     // tim nhung dien vien co dong mot bo phim do nguoi dung nhap (input :ten phim)
+                     case "film":
+                         kindquery = "film"
+                         break;
+                     // tim  phim theo mot quoc gia nao do (input ten quocgia)
+                     case "country":
+                         kindquery = "country"
+                         break;
+                     // tim nhung bo phim do mot nha phan phoi nao san xuat (input ten nha phan phoi)
+                     case "producer":
+                         kindquery = "producer"
+                         break;
+                     // tim tat ca cac bo phim co su tham gia cua mot dien vien (input ten dien vien)
+                     case "actor":
+                         kindquery = "actor"
+                         break;
+                     //tim nhung bo phim duoc san xuat trong mot nam nao do do nguoi dung nhap vao (input year )
+                     case "year":
+                         kindquery = "year"
+                         break;
+                 }
+
+
+                 var jqXHR = $.ajax({
+                     type: "POST",
+                     url: "/login",
+                     async: false,
+                     data: {mydata: noidung, loaitruyvan: kindquery}
+                 });
+                 if(jqXHR.responseText==""){
+                     alert("Không có dữ liệu trả về");
+                 }
+                 $("#noidungkq").html(jqXHR.responseText)
+                 //alert(jqXHR.responseText);
+
+             }else{
+                 alert("Mời chọn loại tìm kiếm và nhập nội dung tìm kiếm!")
+             }
+
+
+
+        }
+
+    </script>
+</head>
+
+<body>
+	<div class="wrapper">
+    	<div class="header">
+        	<h3>Hệ thống tìm kiếm phim</h3>
+        </div>
+        <div class="formSearch">
+        	<form action="#" method="post">
+
+                <select class="theloai" id="chonloaitruyvan">
+                    <option value="film">Tên phim</option>
+                    <option value="actor">Diễn viên</option>
+                    <option value="country">Quốc gia</option>
+                    <option value="producer">Nhà sản xuất</option>
+                    <option value="year">Năm sản xuất</option>
+                </select>
+
+                <span>
+                    <input class="key" type="text"  name="key" id="noidungtim"/>
+                    <input id="btnSearch" class="btnSearch" type="button" onclick="timkiem()" value=""/>
+                </span>
+
+
+            </form> 
+        </div>
+        <div class="headerText">
+            	KẾT QUẢ
+        </div>
+        <div class="showResult">
+            <div class="content" id="noidungkq">
+
+            </div>
+        </div>
+         <div class="footer">
+        	<div class="footerContent">
+            	<span>Bài báo cáo môn Web ngữ nghĩa </span><br>
+                <div class="w50">
+                    Giáo viên hướng dẫn:<br>
+                    <b>TS. TRẦN CÔNG ÁN</b>
+                </div>
+                <div class="w50">
+                    Danh sách nhóm:<br/>
+                    1. M2515003 - ĐOÀN NGỌC HIẾU<br>
+                    2. M2515023 - HUỲNH TRUNG LONG<br>
+                    3. M2515008 - TRẦN LÊ HỒNG NHUNG<br>
+                    4. M2515011 - BÙI VIỆT PHƯƠNG
+                </div>
+                <div class="clear"></div>
+
+            </div>
+            <div class="footer_bottom"></div>
+        </div>
+    </div>
+</body>
+</html>
