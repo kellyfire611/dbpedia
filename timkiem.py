@@ -3,16 +3,16 @@ from flask import Flask, render_template, request, make_response
 
 import rdflib.graph as g
 app = Flask(__name__, template_folder='templates')
-filename = "C:/project1/data/knowledge_Film.rdf" #replace with something interesting
+filename = "./data/knowledge_Film.rdf" #replace with something interesting
 import rdflib
-import rdfextras
-rdfextras.registerplugins() # so we can Graph.query()
+#import rdfextras
+#rdfextras.registerplugins() # so we can Graph.query()
 g=rdflib.Graph()
 g.parse(filename, format="xml")
 g.serialize(format='xml')
 @app.route('/')
 def index():
-  return render_template('giaodientimkiem.html')
+  return render_template('timkiemphim/index.html')
 @app.route('/my-link/')
 def my_link():
   return "alert('I got clicked!');"

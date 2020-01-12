@@ -1,9 +1,9 @@
 # coding=utf-8
 import rdflib.graph as g
-filename = "C:/python_project/project1/data/knowledge_Film.rdf" #replace with something interesting
+filename = "./data/knowledge_Film.rdf" #replace with something interesting
 import rdflib
-import rdfextras
-rdfextras.registerplugins() # so we can Graph.query()
+#import rdfextras
+#rdfextras.registerplugins() # so we can Graph.query()
 g=rdflib.Graph()
 g.parse(filename, format="xml")
 g.serialize(format='xml')
@@ -39,5 +39,5 @@ ORDER BY(?movie)
 for x, y, z  in results.result:
         print( x,y.encode("utf-8", errors='replace'),z.encode("utf-8", errors='replace'))
 
-#file = open("C:/python_project/project1/data/final.txt", "ab")
+#file = open("./data/final.txt", "ab")
 #file.write(results)

@@ -4,9 +4,9 @@ import SPARQLWrapper
 from SPARQLWrapper import SPARQLWrapper, JSON, XML
 from rdflib import ConjunctiveGraph
 from rdflib import Namespace, BNode, Literal, RDF
-import rdfextras
+#import rdfextras
 from rdflib.namespace import DC, FOAF
-rdfextras.registerplugins() # so we can Graph.query()
+#rdfextras.registerplugins() # so we can Graph.query()
 owlNS = Namespace("http://www.w3.org/2002/07/owl#")
 owlClass = owlNS["Class"]
 owlObjectProperty = owlNS["ObjectProperty"]
@@ -19,7 +19,7 @@ rdfsSubClassOf = rdfsNS["subClassOf"]
 rdfsDomain = rdfsNS["domain"]
 rdfsRange = rdfsNS["range"]
 graph = ConjunctiveGraph()
-graph.load("C:/python_project/project1/data/Film_Tbox.owl")
+graph.load("./data/Film_Tbox.owl")
 
 s=graph.serialize(format='n3')
 #print(s)
@@ -129,7 +129,7 @@ graph.bind("foaf", FOAF)
 #print( graph.serialize(format='n3'))
 print(len(graph))
 #xuat du lieu ra file
-file = open("C:/python_project/project1/data/knowledge_Film.owl", "ab")
+file = open("./data/knowledge_Film.owl", "ab")
 file.write(graph.serialize(format='pretty-xml'))
 
 
