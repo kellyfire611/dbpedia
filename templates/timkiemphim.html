@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DBPedia Python</title>
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="/static/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/app.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="display-4">Demo tìm kiếm Phim trên DBPEDIA</h1>
+                <p class="lead">Đây là demo truy xuất dữ liệu DBPEDIA bằng ngôn ngữ SPARQL</p>
+                <p>Chỉ dùng cho mục đích Nghiên cứu và Học tập Web Ngữ nghĩa</p>
+                <hr class="my-4">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col-md-12">
+                <form name="frmQuery" method="post" action="#">
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label for="chonloaitruyvan">Tìm kiếm theo</label>
+                            <select class="form-control theloai" id="chonloaitruyvan">
+                                <option value="film">Tên phim</option>
+                                <option value="actor">Diễn viên</option>
+                                <option value="country">Quốc gia</option>
+                                <option value="producer">Nhà sản xuất</option>
+                                <option value="year">Năm sản xuất</option>
+                            </select>
+                            <small id="chonloaitruyvanHelp" class="form-text text-muted">Chọn loại Truy vấn, có thể tìm
+                                theo tên phim, diễn viên, ...</small>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="noidungtim">Từ khóa Tìm kiếm</label>
+                            <input type="text" class="form-control" name="noidungtim" id="noidungtim"
+                                aria-describedby="noidungtimHelp" value="" focused>
+                            <small id="noidungtimHelp" class="form-text text-muted">Từ khóa Tìm kiếm...</small>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary" id="btnExecuteQuery">Thực hiện QUERY tìm kiếm</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="showResult">
+                    <div class="content" id="noidungkq">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <hr class="mt-5" />
+        <h5>Bài báo cáo môn Web ngữ nghĩa</h5>
+        <div class="row">
+            <div class="col col-md-6">
+                <div class="w50">
+                    Giáo viên hướng dẫn:<br>
+                    <b>TS. TRẦN CÔNG ÁN</b>
+                </div>
+            </div>
+            <div class="col col-md-6">
+                <div class="w50">
+                    Danh sách nhóm:<br />
+                    1. M2518001 - DƯƠNG NGUYỄN PHÚ CƯỜNG<br>
+                    2. M2518010 - TỐNG KIM ANH DŨNG<br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Vendor Javascript -->
+    <script src="/static/vendor/jquery/jquery-3.4.1.min.js"></script>
+    <script src="/static/vendor/popperjs/popper.min.js"></script>
+    <script src="/static/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/static/vendor/sweetalert2/sweetalert2.js"></script>
+
+    <script src="/static/js/app.js"></script>
+    <script>
+        function timkiem() {
+            var noidung = $("#noidungtim").val();
+            if (!noidung || noidung.length == 0) {
+                Swal.fire({
+                    icon: 'warning',
+                    title: 'Cảnh báo...',
+                    text: 'Từ khóa Tìm kiếm không thể rỗng. Vui lòng kiểm tra lại!'
+                });
+                return;
+            }
+
+            //dau tien la phai phan loai xem nguoi dung muon tim gi
+            //dat mac dinh mangcontent[0] chinh la yeu cau tim kiem theo cau truy van nao
+            var kindquery = "film"
+            var loaicantim = $("#chonloaitruyvan").val();
+            if (loaicantim != "" && noidung != "") {
+                //alert(loaicantim)
+                switch (loaicantim) {
+                    // tim nhung dien vien co dong mot bo phim do nguoi dung nhap (input :ten phim)
+                    case "film":
+                        kindquery = "film"
+                        break;
+                    // tim  phim theo mot quoc gia nao do (input ten quocgia)
+                    case "country":
+                        kindquery = "country"
+                        break;
+                    // tim nhung bo phim do mot nha phan phoi nao san xuat (input ten nha phan phoi)
+                    case "producer":
+                        kindquery = "producer"
+                        break;
+                    // tim tat ca cac bo phim co su tham gia cua mot dien vien (input ten dien vien)
+                    case "actor":
+                        kindquery = "actor"
+                        break;
+                    //tim nhung bo phim duoc san xuat trong mot nam nao do do nguoi dung nhap vao (input year )
+                    case "year":
+                        kindquery = "year"
+                        break;
+                }
+
+                var requestData = { mydata: noidung, loaitruyvan: kindquery };
+
+                $("#noidungkq").val('');
+                $.ajax({
+                    url: '/login',
+                    type: "POST",
+                    data: requestData,
+                    dataType: 'text'
+                }).done(function (data) {
+                    // If successful
+                    console.log(data);
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Truy vấn thành công!',
+                        text: 'Dữ liệu trả về từ DBPEDIA được hiển thị!'
+                    });
+                    $("#noidungkq").html(data);
+                }).fail(function (jqXHR, textStatus, errorThrown) {
+                    // If fail
+                    console.log(textStatus + ': ' + errorThrown);
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Oops...',
+                        text: 'Có lỗi xảy ra khi truy xuất dữ liệu từ DBPEDIA!'
+                    });
+                    $("#noidungkq").val(errorThrown);
+                });
+
+            } else {
+                alert("Mời chọn loại tìm kiếm và nhập nội dung tìm kiếm!")
+            }
+        }
+
+        $(document).ready(function () {
+            $("#chonloaitruyvan").on("change", function () {
+                $("#noidungtim").val("")
+            })
+            $('#noidungtim').keypress(function (e) {
+                if (e.keyCode == 13) {
+                    timkiem();
+                    return false;
+                }
+            });
+
+            $('#btnExecuteQuery').click(function () {
+                timkiem();
+                return false;
+            });
+        });
+    </script>
+</body>
+
+</html>
